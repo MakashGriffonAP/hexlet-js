@@ -1,10 +1,8 @@
-import _ from 'lodash';
+// file: index.js
+import { sayHello, getLastElement, addNumbers } from './src/index.js';
 
-console.log('Hello, Hexlet!');
+sayHello();
 
-console.log(_.last(['one', 'two']));
+console.log(getLastElement(['one', 'two']));
 
-const fn = (a, b) => {
-	const c = a + b;
-	return c;
-};
+console.log(addNumbers(3, 4)); // Пример вызова функции суммы
